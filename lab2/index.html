@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona internetowa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <header>
+        <h1>Ostap Holoborodko - personalna strona internetowa</h1>   
+    </header>
+
+    <section>
+        <h2>Kilka slów o mnie</h2>
+        <p>Jestem studentem 1 roku w Rzeszowie, kierunku Programowanie</p>
+    </section>
+
+    <section>
+        <h3>Zainteresowania</h3>
+        <ul>
+            <li>Siłownia</li>
+            <li>Granie na komputerze</li>
+            <li>Programowanie</li>
+        </ul>
+
+        <a href="ulubione-seriale.html">Seriale</a>
+          
+          
+        <h3>Filmy</h3>
+        <ul>
+            <li>  <a href = "https://uk.wikipedia.org/wiki/%D0%A8%D1%80%D0%B5%D0%BA">Shrek</a></li>
+            <li> <a href ="https://pl.wikipedia.org/wiki/Avengers_(film_2012)">Avengers</a></li>
+            <li> <a href ="https://pl.wikipedia.org/wiki/Spider-Man_w_filmie">Spider-Man</a></li>
+        </ul>
+        
+        <h3>Technologia</h3>
+        <p></p>
+    </section>
+    <article> 
+      <table border="1" class="first-table">
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Miejsce wykształcenia</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022</td>
+            <td>Lwówska Akademiczna Gimnazja</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>Skołą podstawowa</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>Przedskole</td>
+          </tr>
+        </tbody>
+      </table>
+    </article> 
+
+      <table class="second-table">
+        <tr class="second-table__row">
+          <th class="second-table__col"></th>
+          <th class="second-table__col" rowspan="2"></th>
+          <th class="second-table__col"></th>
+        </tr>
+        <tr class="second-table__row">
+          <th class="second-table__col"></th>
+          <th class="second-table__col"></th>
+        </tr>
+        <tr class="second-table__row">
+          <th class="second-table__col"></th>
+          <th class="second-table__col" rowspan="2" colspan="2"></th>
+        </tr>
+        <tr class="second-table__row">
+          <th class="second-table__col"></th>
+        </tr>
+        <tr class="second-table__row">
+          <th class="second-table__col" colspan="2"></th>
+          <th class="second-table__col"></th>
+        </tr>
+      </table>
+
+    </div>
+    <div>
+      <form action="" method="get">
+        <p>Your news form</p>
+  
+        <div class="input-field">
+          <label for="name">Login</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="input-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="input-field">
+          <label for="news">Do you want to get the news daily?</label>
+          <input type="radio" id="news" />
+        </div>
+        <div class="input-field">
+          <label for="discount">Do you want to get 10% discount?</label>
+          <input type="checkbox" id="discount" />
+        </div>
+  
+        <div class="input-field">
+          <label for="calendar">Select first news day: </label>
+          <input type="date" id="calendar" />
+        </div>
+  
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+</body>
+<footer>
+    <div>
+    <img src="shrek melon.jpg" style="width: 50%;height: 300px;">
+    </div>
+    <div style="display: flex;">
+    </div>
+    </footer>
+</html>
